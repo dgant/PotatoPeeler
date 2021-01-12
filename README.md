@@ -1,7 +1,7 @@
 # PotatoPeeler
 ## Measure your BWAPI bot against a gauntlet of opponents
 
-![Example screenshot of win-loss records against each opponent and on each map](https://github.com/dgant/PotatoPeeler/blob/master/exampleresults.png)
+![Example screenshot of win-loss records against each opponent and on each map](https://github.com/dgant/PotatoPeeler/blob/main/exampleresults.png)
 
 ### Mission
 When developing a bot to compete at StarCraft: Brood War using [BWAPI](https://github.com/bwapi/bwapi), you may want to measure your bot's performance against salient opponents. PotatoPeeler is a set of simple scripts to run lots of games via [SC-Docker](https://github.com/basil-ladder/sc-docker) and measure how your bot is doing.
@@ -26,7 +26,7 @@ Displays results of the most recent potato-run. Collects replays and logs of gam
 
 Results are printed directly to console (see example above). Replays and logs of losses are copied to a "losses" directory inside your SC-Docker directory.
 
-![Example screenshot screenshot of Windows Explorer showing aggregated replays and log files](https://github.com/dgant/PotatoPeeler/blob/master/examplelosses.png)
+![Example screenshot screenshot of Windows Explorer showing aggregated replays and log files](https://github.com/dgant/PotatoPeeler/blob/main/examplelosses.png)
 
 You can run potato-status while potato-run is still in progress.
 
