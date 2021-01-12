@@ -37,3 +37,4 @@ You can run potato-status while potato-run is still in progress.
 On Windows, you'll need access to Bash or an equivalent shell. Some good options for doing this:
 1. (Recommended) Install [Git Bash](https://gitforwindows.org/). This is part of Git for Windows, so you likely already have this installed.
 2. Install [https://www.cygwin.com/](https://www.cygwin.com/)
+3. git clone https://github.com/dgant/PotatoPeeler
