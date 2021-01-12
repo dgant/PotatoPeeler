@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+python potato-status.py
