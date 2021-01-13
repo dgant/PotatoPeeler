@@ -29,7 +29,7 @@ Results from `potato-run` games go in the default scbw "games" directory. If you
 Terminating `potato-run` doesn't always succeed at ending all the processes it spawns. If this happens, you'll need to end those processes manually. They'll likely be listed as instances of `bash`.
 
 ### 📝 `potato-status`
-Displays results of the most recent potato-run. Collects replays and logs of games your bot lost.
+Displays results of the most recent `potato-run`. Collects replays and logs of games your bot lost.
 
 `potato-status` prints results directly to the console (see example above). It copies replays and logs of losses to a "losses" directory inside your SC-Docker directory.
 
@@ -37,7 +37,7 @@ Displays results of the most recent potato-run. Collects replays and logs of gam
 
 The files are named with each game's timestamp, so if you sort the "losses" directory by name it'll also be sorted by game, in chronological order.
 
-You can run potato-status while potato-run is still in progress.
+You can run `potato-status` while `potato-run` is still in progress.
 
 ## 👷 Setup 
 1. Install [SC-Docker](https://github.com/basil-ladder/sc-docker)
