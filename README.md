@@ -1,4 +1,4 @@
-#🥔 PotatoPeeler 🍟
+# 🥔 PotatoPeeler 🍟
 ### Measures your BWAPI bot against a gauntlet of opponents.
 ### Gets your potato in shape!
 
