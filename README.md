@@ -6,14 +6,14 @@
 
 *Results from PotatoPeeler running hundreds of games, showing your bot's win-loss-incomplete records against each opponent and on each map*
 
-## 🥔 Purpose
+## 🚀 Mission
 When developing a bot to compete at StarCraft: Brood War using [BWAPI](https://github.com/bwapi/bwapi), you may want to measure your bot's performance against salient opponents. PotatoPeeler is a set of simple scripts to run lots of games via [SC-Docker](https://github.com/basil-ladder/sc-docker) and measure how your bot is doing.
 
 PotatoPeeler can also analyze results from SC-Docker games you've run manually via `scbw.play`; there's no difference between games queued by PotatoPeeler and those
 
 PotatoPeeler is deliberately simple. There are no plans for additional features.
 
-## 🥔 Using PotatoPeeler
+## 🔨 Using PotatoPeeler
 
 ### 🏃 `potato-run`
 Runs games of your bot against a gauntlet of your opponents.
@@ -24,10 +24,9 @@ The script specifies which bot to test (yours), which opponents to play against,
 
 Results from `potato-run` games go in the default scbw "games" directory. If you want to start start a fresh test run, delete or move the games in that directory.
 
-Three considerations when using `potato-run`:
-1. `potato-run` adds more 
-1. `potato-run` kills all running Docker containers on start by running `dockerstop.sh`. If you're using Docker for other purposes, you should remove this step.
-2. Ending potato-run doesn't always succeed at ending all the processes it spawns. If this happens, you'll need those processes.
+`potato-run` kills all running Docker containers on start by running `dockerstop.sh`. If you're using Docker for other purposes, you should remove this step.
+
+Terminating `potato-run` doesn't always succeed at ending all the processes it spawns. If this happens, you'll need to end those processes manually. They'll likely be listed as instances of `bash`.
 
 ### 📝 `potato-status`
 Displays results of the most recent potato-run. Collects replays and logs of games your bot lost.
