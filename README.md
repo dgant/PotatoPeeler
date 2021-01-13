@@ -9,7 +9,7 @@
 ## 🚀 Mission
 When developing a bot to compete at StarCraft: Brood War using [BWAPI](https://github.com/bwapi/bwapi), you may want to measure your bot's performance against salient opponents. PotatoPeeler is a set of simple scripts to run lots of games via [SC-Docker](https://github.com/basil-ladder/sc-docker) and measure how your bot is doing.
 
-PotatoPeeler can also analyze results from SC-Docker games you've run manually via `scbw.play`; there's no difference between games queued by PotatoPeeler and those
+PotatoPeeler can also analyze results from SC-Docker games you've run manually via `scbw.play`; there's no difference between games run by PotatoPeeler and those run by `scbw.play`.
 
 PotatoPeeler is deliberately simple. There are no plans for additional features.
 
