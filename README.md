@@ -4,7 +4,7 @@
 
 ![Example screenshot of win-loss records against each opponent and on each map](https://github.com/dgant/PotatoPeeler/blob/main/exampleresults.png)
 
-* Your bot's win-loss-incomplete records against each opponent and on each map*
+*Your bot's win-loss-incomplete records against each opponent and on each map*
 
 ## 🚀 Mission
 When developing a bot to compete at StarCraft: Brood War using [BWAPI](https://github.com/bwapi/bwapi), you may want to measure your bot's performance against salient opponents. PotatoPeeler is a set of simple scripts to run lots of games via [SC-Docker](https://github.com/basil-ladder/sc-docker) and measure how your bot is doing.
