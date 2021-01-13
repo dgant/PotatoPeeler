@@ -1,5 +1,6 @@
-# PotatoPeeler
-### Measure your BWAPI bot against a gauntlet of opponents
+#🥔 PotatoPeeler 🍟
+### Measures your BWAPI bot against a gauntlet of opponents.
+### Gets your potato in shape!
 
 ![Example screenshot of win-loss records against each opponent and on each map](https://github.com/dgant/PotatoPeeler/blob/main/exampleresults.png)
 
